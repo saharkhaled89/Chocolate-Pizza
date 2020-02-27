@@ -1,0 +1,112 @@
+body {
+    width: 70%;
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0 auto;
+  }
+  
+  header div {
+    display: inline-block;
+    margin-top: 2em;
+    
+  }
+  
+  h4 {
+    font-family: 'Yellowtail', cursive;
+    margin: 7px;
+    font-size: 40px;
+    padding: -7px -11px 29px 7px;
+    height: 26px;
+  }
+  
+  h5 {
+    font-family: 'VT323', monospace; 
+    color: grey;
+    font-size: 13px;
+    margin-left: 7px;
+  
+  }
+  
+  header ul {
+  
+    float: right;
+    margin-top: 2.5em;
+    margin-left: 10px;
+  
+  }
+  
+  header ul li {
+    display: inline-block;
+  
+  }
+  
+  header ul:last-child {
+    margin-left: 4em;
+  }
+  
+  
+    .hr.new5 {
+      border: 10px solid gray;
+      border-radius: 5px;
+    }
+  
+  
+  h1 {
+    font-family: 'Francois One', sans-serif;
+    margin-top: 1em;
+    height: 25px;
+    font-size: 33px;
+  }
+  
+  h2 {
+    font-family: 'VT323', monospace; 
+    font-size: 13px;
+    color: grey;
+  }
+  
+  img.cakeshape {
+    width: 820px;
+  
+  }
+  
+  #divofdivs{
+    background: url('img/list-bg.png');
+  }
+  
+  .print{    float: right;
+  margin-right: 0px;
+
+    
+  }
+  .column1, .column2 {
+  
+  
+    width: 300px;
+    float:left;
+    margin-left: 130px;
+    
+    background-image:url(https://github.com/LTUC/amman-201d3/blob/master/class-10/lab-a/lab-assets/list-bg.png?raw=true);
+    display: inline-block;
+    width: 707px;
+  }
+
+  
+  main div form label {
+    display: block;
+  }
+  
+  p {
+    text-indent: 30px;
+    margin-top: 30px;
+  
+  }
+  
+  
+   footer img:first-child{
+     display: inline-block;
+   }
+  
+  
+  /* font-family: 'VT323', monospace; The BEST FOOD BLOG
+  font-family: 'Yellowtail', cursive; for Delicous
+  font-family: 'Francois One', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif; */
