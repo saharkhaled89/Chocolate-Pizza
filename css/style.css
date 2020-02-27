@@ -68,26 +68,46 @@ body {
   
   }
   
-  #divofdivs{
+  .container{
     background: url('img/list-bg.png');
+    position: relative;
+    text-align: center;
+    color: black;
   }
+
+  .TABEL{
+    font-family: 'Patrick Hand', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+
   
-  .print{    float: right;
+  .print{    float: right;;
   margin-right: 0px;
 
     
   }
-  .column1, .column2 {
+
+
+  #column1 {
   
+    float: left;
   
-    width: 300px;
-    float:left;
-    margin-left: 130px;
     
-    background-image:url(https://github.com/LTUC/amman-201d3/blob/master/class-10/lab-a/lab-assets/list-bg.png?raw=true);
-    display: inline-block;
-    width: 707px;
   }
+
+
+
+  #column2 {
+  
+    float: left;
+  
+  }
+
 
   
   main div form label {
@@ -101,12 +121,19 @@ body {
   }
   
   
-   footer img:first-child{
-     display: inline-block;
-   }
-  
-  
-  /* font-family: 'VT323', monospace; The BEST FOOD BLOG
-  font-family: 'Yellowtail', cursive; for Delicous
-  font-family: 'Francois One', sans-serif;
-  font-family: 'IBM Plex Sans', sans-serif; */
+  footer img {
+    float: left;
+}
+
+footer button {
+    float: right;
+}
+
+#footLogo { 
+    border-middle: 10px ridge black;
+}
+
+#copyright {
+    text-align: center;
+    color: gray;
+}
