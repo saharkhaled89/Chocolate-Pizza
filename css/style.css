@@ -72,22 +72,10 @@ body {
     width: 100%;
   margin:0 auto;
   }
-  /*
-  .container{
-    background: url('img/list-bg.png');
-    position: relative;
-    text-align: center;
-    color: black;
-    position: relative;
-  }
-
-  .TABEL{
-    margin-top: 3.5vw;
-    width: 100%;
-}
+ 
 
 
- */ 
+ 
   .print{    float: right;
   margin-right: 0px;
   padding: 10px 2px 22px 10px;
@@ -95,37 +83,13 @@ body {
 }
     
   
-/*
 
-  #column1 {
-  
-    width: 180px;
-    float: left;
-    margin-left: 130px;
-  
-    
-  }
-
-
-
-  #column2 {
-  
-    width: 300px;
-  float: left;
-  margin-left: 130px;
-  
-  }
-
-*/
-  
 .list-background {
   margin-top: 3.5vw;
   width: 100%;
 }
 
-/* .ingredients-list {
-  background-image: url("images/choco-pizza.png");
-} */
+
 
 .col-container {
   color: gray;
@@ -151,16 +115,7 @@ fieldset.col.column-two {
   display: inline-block;
   width: 40%;
 }
-/*
-.column-one {
-  margin-left: 13%;
-  float: left;
-}
-.column-two {
-  margin-left: 13%;
-  float: right;
-}
-*/
+
 ul#column1 {
   margin-bottom: 205px;
   margin-top: -308px;
@@ -177,7 +132,7 @@ ul#column2 {
 form li {
   margin-left: 41px;
 }
-/**** STRIKE THROUGH WHEN CHECKED ****/
+
 input[type=checkbox]:checked + label {
   text-decoration: line-through;
 }
@@ -202,7 +157,6 @@ footer button {
     
       margin-top: -91px;
       font-size: larger;
-      /* text-decoration-color: seagreen; */
       border-block-end: none;
       padding: 13px 16px 14px 15px;
       background-color: firebrick;
