@@ -45,8 +45,10 @@ body {
   
   
     .hr.new5 {
-      border: 10px solid gray;
-      border-radius: 5px;
+      height: 10px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  border: 0;
+  transform: rotate(180dec);
     }
   
   
@@ -55,47 +57,51 @@ body {
     margin-top: 1em;
     height: 25px;
     font-size: 33px;
+    padding: 16px 0px 0px 0px;
+    margin-bottom: 9px;
   }
   
   h2 {
     font-family: 'VT323', monospace; 
     font-size: 13px;
     color: grey;
+    float: left;
   }
   
-  img.cakeshape {
-    width: 820px;
-  
+  img#cakeshape {
+    width: 100%;
+  margin:0 auto;
   }
-  
+  /*
   .container{
     background: url('img/list-bg.png');
     position: relative;
     text-align: center;
     color: black;
+    position: relative;
   }
 
   .TABEL{
-    font-family: 'Patrick Hand', cursive;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left;
+    margin-top: 3.5vw;
+    width: 100%;
 }
 
 
-  
-  .print{    float: right;;
+ */ 
+  .print{    float: right;
   margin-right: 0px;
-
+  padding: 10px 2px 22px 10px;
+    font-size: 67%;
+}
     
-  }
-
+  
+/*
 
   #column1 {
   
+    width: 180px;
     float: left;
+    margin-left: 130px;
   
     
   }
@@ -104,12 +110,78 @@ body {
 
   #column2 {
   
-    float: left;
+    width: 300px;
+  float: left;
+  margin-left: 130px;
   
   }
 
-
+*/
   
+.list-background {
+  margin-top: 3.5vw;
+  width: 100%;
+}
+
+/* .ingredients-list {
+  background-image: url("images/choco-pizza.png");
+} */
+
+.col-container {
+  color: gray;
+    display: inherit;
+    font-family: patrick hand, cursive;
+    line-height: 2.2;
+    margin-top: -24vw;
+    width: 100%;
+    margin-bottom: 70px;
+margin-left: 41px;
+}
+fieldset.col.column-one {
+  border: none;
+  line-height: 36px;
+
+}
+
+fieldset.col.column-two {
+  border: none;
+}
+
+.col {
+  display: inline-block;
+  width: 40%;
+}
+/*
+.column-one {
+  margin-left: 13%;
+  float: left;
+}
+.column-two {
+  margin-left: 13%;
+  float: right;
+}
+*/
+ul#column1 {
+  margin-bottom: 205px;
+  margin-top: -308px;
+  float: none;
+
+}
+ul#column2 {
+  float: none;
+  margin-top: -483px;
+  margin-bottom: 50px;
+  margin-left: 500px;
+}
+
+form li {
+  margin-left: 41px;
+}
+/**** STRIKE THROUGH WHEN CHECKED ****/
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+}
+
   main div form label {
     display: block;
   }
@@ -117,7 +189,7 @@ body {
   p {
     text-indent: 30px;
     margin-top: 30px;
-  
+    margin-bottom: 18px;
   }
   
   
@@ -127,13 +199,30 @@ body {
 
 footer button {
     float: right;
+    
+      margin-top: -91px;
+      font-size: larger;
+      /* text-decoration-color: seagreen; */
+      border-block-end: none;
+      padding: 13px 16px 14px 15px;
+      background-color: firebrick;
+      color: antiquewhite;
+  
 }
 
+
+
 #footLogo { 
-    border-middle: 10px ridge black;
+  margin-left: 450px;
+  margin-top: -22px;
 }
+
 
 #copyright {
     text-align: center;
     color: gray;
+    margin-top: 60px;
+
+
 }
+
