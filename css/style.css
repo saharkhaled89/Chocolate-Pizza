@@ -83,8 +83,15 @@ body {
     transform: translate(-50%, -50%);
     text-align: left;
 }
-
-
+ul{
+  list-style-type:none;
+}
+#column{
+  text-align: left;
+}
+#column input {
+  float: left;
+}
   
   .print{    float: right;;
   margin-right: 0px;
